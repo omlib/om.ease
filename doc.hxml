@@ -1,6 +1,7 @@
 --no-output
 -lib om.ease
 om.Ease
+-D xml-gen
 --each
 
 --next
@@ -25,8 +26,8 @@ om.Ease
 
 --next
 -js x
--lib hxnodejs
 -xml doc/node.xml
+-lib hxnodejs
 
 --next
 -neko x
@@ -39,6 +40,3 @@ om.Ease
 --next
 -php x
 -xml doc/php.xml
-
-#--next
-#-cmd haxelib run dox -o doc/ -i doc/xml --title om.tween -D version 3.3.0 -D source-path https://github.com/tong/om.ease/tree/master/src

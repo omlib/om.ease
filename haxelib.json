@@ -3,12 +3,12 @@
     "version": "0.0.0",
     "description": "Easing methods",
     "tags": ["om","ease"],
-    "url": "https://github.com/tong/om.ease",
+    "url": "https://github.com/omlib/om.ease",
     "license": "OM",
     "contributors": ["tong"],
     "releasenote": "See CHANGELOG.md",
     "classPath" : "src/",
     "dependencies": {
-		"om.core":""
+        "om.core": ""
 	}
 }
